@@ -9,10 +9,12 @@ module.exports = app => {
 
         const notes = JSON.parse(data);
 
-    
+    // get route
     app.get("/api/notes", function(req, res) {
         res.json(notes);
     });
+
+    // post route
     app.post("/api/notes", function(req, res) {
         let newNote = req.body;
         notes.push(newNote);
