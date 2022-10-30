@@ -36,6 +36,6 @@ Visit Heroku link: https://evnotetakerapp.herokuapp.com/notes
 
 
 # Screenshots 
-
+<img src="./public/assets/Heroku app.png"/>
 
 
