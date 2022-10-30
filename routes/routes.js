@@ -26,7 +26,7 @@ module.exports = app => {
         res.json(notes[req.params.id]);
     });
 
- //Try bonus//
+// bonus delete (not sure if it worked)
  app.delete("/api/notes/:id", function(req, res) {
     notes.splice(req.params.id, 1);
     updateDb();
